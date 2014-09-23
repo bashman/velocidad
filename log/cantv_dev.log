@@ -1,0 +1,458 @@
+Sep 17 16:08:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 17 16:08:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 17 16:08:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 17 16:08:11 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 17 16:08:11 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 17 16:08:11 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 17 16:08:11 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 17 16:08:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 17 16:08:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 17 16:08:11 symfony [info] {sfWebDebugLogger} Configuration 39.51 ms (9)
+Sep 17 16:08:11 symfony [info] {sfWebDebugLogger} Factories 42.94 ms (1)
+Sep 17 16:08:11 symfony [info] {sfWebDebugLogger} Action "default/index" 0.06 ms (1)
+Sep 17 16:08:11 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 3.86 ms (1)
+Sep 17 16:08:11 symfony [info] {sfWebResponse} Send content (29070 o)
+Sep 17 16:11:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 17 16:11:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 17 16:11:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 17 16:11:15 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 17 16:11:15 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 17 16:11:15 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 17 16:11:15 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 17 16:11:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 17 16:11:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 17 16:11:15 symfony [info] {sfWebResponse} Send content (2026 o)
+Sep 22 20:36:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 22 20:36:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 20:36:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 20:36:46 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 22 20:36:46 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 22 20:36:46 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 20:36:46 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 20:36:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 20:36:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 20:36:46 symfony [info] {sfWebResponse} Send content (2026 o)
+Sep 22 20:36:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 20:36:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 20:36:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 20:36:50 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 20:36:50 symfony [info] {inicioActions} Forward to action "default/module"
+Sep 22 20:36:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 20:36:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 20:36:50 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Sep 22 20:36:50 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/moduleSuccess.php"
+Sep 22 20:36:50 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 20:36:50 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 20:36:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 20:36:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 20:36:50 symfony [info] {sfWebResponse} Send content (2004 o)
+Sep 22 20:36:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 20:36:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 20:36:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 20:36:59 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 20:36:59 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 22 20:36:59 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:36:59 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:36:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 20:36:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 20:36:59 symfony [info] {sfWebResponse} Send content (477 o)
+Sep 22 20:54:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 20:54:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 20:54:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 20:54:33 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 20:54:33 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 22 20:54:33 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:33 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 20:54:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 20:54:33 symfony [info] {sfWebResponse} Send content (1675 o)
+Sep 22 20:54:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 20:54:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 20:54:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 20:54:35 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 20:54:35 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 22 20:54:35 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:35 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 20:54:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 20:54:35 symfony [info] {sfWebResponse} Send content (1675 o)
+Sep 22 20:54:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 20:54:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 20:54:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 20:54:35 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 20:54:35 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 22 20:54:35 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:35 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 20:54:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 20:54:35 symfony [info] {sfWebResponse} Send content (1675 o)
+Sep 22 20:54:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 20:54:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 20:54:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 20:54:36 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 20:54:36 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 22 20:54:36 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:36 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 20:54:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 20:54:36 symfony [info] {sfWebResponse} Send content (1675 o)
+Sep 22 20:54:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 20:54:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 20:54:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 20:54:37 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 20:54:37 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 22 20:54:37 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:37 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 20:54:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 20:54:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 20:54:37 symfony [info] {sfWebResponse} Send content (1675 o)
+Sep 22 21:56:27 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 21:56:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 21:56:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 21:56:27 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 21:56:28 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 22 21:56:28 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 21:56:28 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 21:56:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 21:56:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 21:56:28 symfony [info] {sfWebResponse} Send content (3470 o)
+Sep 22 21:57:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 21:57:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 21:57:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 21:57:35 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 21:57:35 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 22 21:57:35 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 21:57:35 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 21:57:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 21:57:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 21:57:35 symfony [info] {sfWebResponse} Send content (3440 o)
+Sep 22 21:57:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 22 21:57:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 21:57:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 21:57:39 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 22 21:57:39 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 22 21:57:39 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 21:57:39 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 22 21:57:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 21:57:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 21:57:39 symfony [info] {sfWebResponse} Send content (3439 o)
+Sep 23 00:23:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:23:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:23:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:23:38 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:23:38 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:23:38 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:23:38 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:23:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:23:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:23:38 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:25:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:25:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:25:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:25:11 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:25:11 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:25:11 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:25:11 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:25:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:25:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:25:11 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:25:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:25:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:25:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:25:14 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:25:14 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:25:14 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:25:14 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:25:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:25:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:25:14 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:27:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:27:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:27:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:27:59 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:27:59 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:27:59 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:27:59 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:27:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:27:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:27:59 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:28:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:28:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:28:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:28:02 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:28:02 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:28:02 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:02 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:28:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:28:02 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:28:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:28:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:28:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:28:10 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:28:10 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:28:10 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:10 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:28:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:28:10 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:28:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:28:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:28:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:28:31 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:28:31 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:28:31 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:31 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:28:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:28:31 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:28:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:28:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:28:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:28:38 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:28:38 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:28:38 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:38 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:28:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:28:38 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:28:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:28:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:28:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:28:41 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:28:41 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:28:41 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:41 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:28:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:28:41 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:28:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:28:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:28:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:28:42 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:28:42 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:28:42 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:42 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:28:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:28:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:28:42 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:29:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:29:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:29:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:29:15 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:29:15 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:29:15 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:29:15 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:29:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:29:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:29:15 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:29:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:29:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:29:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:29:17 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:29:17 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:29:17 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:29:17 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:29:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:29:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:29:17 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:29:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:29:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:29:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:29:18 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:29:18 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:29:18 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:29:18 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:29:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:29:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:29:18 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:31:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:31:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:31:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:31:40 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:31:40 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:31:40 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:40 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:31:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:31:40 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:31:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:31:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:31:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:31:41 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:31:41 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:31:42 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:42 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:31:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:31:42 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:31:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:31:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:31:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:31:43 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:31:43 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:31:43 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:43 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:31:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:31:43 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:31:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:31:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:31:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:31:45 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:31:45 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:31:45 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:45 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:31:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:31:45 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:31:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:31:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:31:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:31:45 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:31:45 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:31:45 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:45 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:31:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:31:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:31:45 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:33:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:33:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:33:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:33:24 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:33:24 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:33:24 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:33:24 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:33:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:33:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:33:24 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:33:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:33:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:33:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:33:26 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:33:26 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:33:26 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:33:26 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:33:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:33:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:33:26 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:33:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:33:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:33:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:33:56 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:33:56 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:33:56 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:33:56 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:33:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:33:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:33:56 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:33:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:33:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:33:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:33:58 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:33:58 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:33:58 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:33:58 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:33:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:33:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:33:58 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:34:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:34:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:34:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:34:00 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:34:00 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:34:00 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:34:00 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:34:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:34:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:34:00 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:34:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:34:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:34:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:34:00 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:34:00 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:34:00 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:34:00 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:34:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:34:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:34:00 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:38:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:38:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:38:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:38:23 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:38:23 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:38:23 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:38:23 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:38:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:38:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:38:23 symfony [info] {sfWebResponse} Send content (4987 o)
+Sep 23 00:38:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:38:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:38:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:38:43 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:38:43 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:38:43 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:38:43 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:38:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:38:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:38:43 symfony [info] {sfWebResponse} Send content (4983 o)
+Sep 23 00:38:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:38:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:38:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:38:45 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:38:45 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:38:45 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:38:45 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:38:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:38:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:38:45 symfony [info] {sfWebResponse} Send content (4983 o)
+Sep 23 00:39:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:39:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:39:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:39:58 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:39:58 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:39:58 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:39:58 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:39:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:39:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:39:58 symfony [info] {sfWebResponse} Send content (4793 o)
+Sep 23 00:40:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:40:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:40:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:40:28 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:40:28 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:40:28 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:40:28 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:40:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:40:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:40:28 symfony [info] {sfWebResponse} Send content (4818 o)
+Sep 23 00:41:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 00:41:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 00:41:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 00:41:05 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 00:41:05 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 00:41:05 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:41:05 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 00:41:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 00:41:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 00:41:05 symfony [info] {sfWebResponse} Send content (4818 o)
+Sep 23 10:45:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 10:45:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 10:45:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 10:45:37 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 10:45:38 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 10:45:38 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 10:45:38 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 10:45:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 10:45:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 10:45:38 symfony [info] {sfWebResponse} Send content (4818 o)
+Sep 23 10:46:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Sep 23 10:46:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 23 10:46:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 23 10:46:14 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Sep 23 10:46:14 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/modules/inicio/templates/indexSuccess.php"
+Sep 23 10:46:14 symfony [info] {sfPHPView} Decorate content with "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 10:46:14 symfony [info] {sfPHPView} Render "/home/bashman/public_html/velocidad/apps/cantv/templates/layout.php"
+Sep 23 10:46:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 23 10:46:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 23 10:46:14 symfony [info] {sfWebResponse} Send content (4818 o)

@@ -1,0 +1,79 @@
+body
+{
+    background-color: #fff;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Garuda, sans-serif;
+    font-size: 12.5px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.panel {height:auto; overflow:hidden;}
+.panel .inside {background-color:#f3f3f3; border:#d1d1d1 1px solid; padding:12px 15px;}
+.panel .subnav {background-color:#1482a0; border:#d1d1d1 1px solid; padding:15px 15px; height:50px; color:#fff;}
+.round {-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+
+.demo {}
+.demo h4 {margin:0 0 5px 0;}
+.demo p {color: #007676; padding:3px 0 3px 0;}
+.demo form {margin:15px 0 0 0;}
+.demo label {cursor:pointer; color:#575757; margin-top:12px;}
+.demo .panel {margin-bottom:10px;}
+.demo span.info {color: #009933;}
+.demo ul li, .demo ol li {list-style-type:none; border-bottom:#d1d1d1 1px solid; display:block; overflow:hidden; padding:2px 0 2px 0px; color:#007676}
+
+h1 {margin:5px; font-size:24px;}
+
+a.main-menu
+{
+    margin: 2px;
+    text-decoration: none;
+}
+
+a.main-menu span
+{
+    color: #dddddd;
+    text-decoration: none;
+}
+
+a.main-menu:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.main-menu span:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.main-menu-active
+{
+    margin: 2px;
+    text-decoration: none;
+}
+
+a.main-menu-active span
+{
+    font-weight:bold;
+    color: #57bfef;
+}
+
+span.samples-view-code
+{
+    float: right;
+    cursor: pointer;
+    color: #dddddd;
+    margin: 0 0 0 3px;
+    padding: 0;
+}
+
+span.samples-view-code:hover
+{
+    color: #ffffff;
+}
+
+label
+{
+    margin-right: 3px;
+}
